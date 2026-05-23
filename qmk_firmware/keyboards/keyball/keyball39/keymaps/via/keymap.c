@@ -91,10 +91,13 @@ void oledkit_render_info_user(void) {
 
 enum combos {
   QP_ESC,
+  DF_TAB,
 };
 
 const uint16_t PROGMEM qp_esc_combo[] = {KC_Q, KC_P, COMBO_END};
+const uint16_t PROGMEM df_tab_combo[] = {KC_D, KC_F, COMBO_END};
 
 combo_t key_combos[] = {
   [QP_ESC] = COMBO(qp_esc_combo, KC_ESC),
+  [DF_TAB] = COMBO(df_tab_combo, KC_TAB),
 };
