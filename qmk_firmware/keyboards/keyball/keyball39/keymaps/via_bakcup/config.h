@@ -37,8 +37,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 1
-
-
-// 以下を追記した
-#define COMBO_COUNT 5
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
